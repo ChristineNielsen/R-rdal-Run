@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="/assets/css/tilmelding.css">
+
+
+<main>
+
+    <% include ../partials/header %>
+<div class="grid-container-full" >
+       <div class="tilmelding1">
+        <img src="/Billeder/pexels-mateusz-dach-332835 (1).jpg" alt="">
+       </div>
+</div>
+<div class="grid-container" id="grid">
+       <div class="tilmelding2">
+           <h5> Forside > Tilmelding</h5>
+       </div>
+       <div class="tilmelding3">
+           <h2>Tilmelding til Rørdal Run</h2>
+       </div>
+       <div class="tilmelding4">
+           <div class="form1">
+            <label for="firstname">Fornavn:</label><br>
+            <input type="text" name="firstname" id="firstname" value="">
+           </div>
+           <div class="fomr2">
+            <label for="lastname">Efternavn:</label><br>
+            <input type="text" name="lastname" id="lastname" value="">
+           </div>
+           <div class="form3">
+            <label for="birth">Fødselsdato</label><br>
+            <input type="date" id="birth" name="birth">
+           </div>
+           <div class="form6">
+            <label for="gender">Køn:</label><br>
+            <input type="radio" id="mand" name="gender" value="m">
+            <label for="mand">Mand</label>
+            <input type="radio" id="kvinde" name="gender" value="f">
+            <label for="kvinde">Kvinde</label>
+           </div>
+           <div class="form7">
+            <label for="email">E-mail adresse:</label><br>
+            <input type="email" name="email" id="email"  value="">
+           </div>
+       </div>
+       <div class="tilmelding5">
+           <div class="form8">
+            <label for="adresse">Adresse:</label> <br>
+            <input type="text" name="adresse" id="adresse"  value="">
+           </div>
+           <div class="form9">
+            <label for="postnummer">Postnummer:</label> <br>
+            <input type="number" name="postnummer" id="postnummer" value="">
+           </div>
+           <div class="form10">
+            <label for="by">By:</label> <br>
+            <input type="text" name="by" id="by" value="">
+           </div>
+           <div class="form11">
+            <label for="number">Telefon:</label> <br>
+            <input type="text" name="number" id="number" value="">
+           </div>
+           <div class="form12">
+            <label for="program">Vælg program:</label><br>
+            <select id="program">
+                <option value="3">One Mile</option>
+                <option value="2">5km</option>
+                <option value="1">10km</option>
+            </select>
+           </div>
+       </div>
+       <div class="tilmelding6">
+        <label for="comment">Kommentar:</label><br>
+        <textarea name="comment" id="comment" value="" ></textarea>
+            <button type="button" id="send">Tilmeld</button>
+        </div>
+</div>
+
+        
+</main>
+
+<script src="/assets/js/tilmelding.js"></script>
+        
+<% include ../partials/footer %>

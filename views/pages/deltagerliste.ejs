@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/assets/css/deltagerliste.css">
+
+<main>
+
+    <% include ../partials/header %>
+<div class="grid-container-full">
+       <div class="deltager1">
+        <img src="/Billeder/pexels-mateusz-dach-332835 (1).jpg" alt="">
+       </div>
+</div>
+<div class="grid-container">
+       <div class="deltager2">
+           <h5> Forside > Deltagerliste</h5>
+       </div>
+       <div class="deltager3">
+           <h2>Deltagerliste</h2>
+       </div>
+       <div class="deltager4">
+           <select id="sort-by" onchange="sorter()"> 
+            <option value="" selected disabled hidden>Sorter i deltagere</option>
+            <option value="Firstname">Fornavn A-Å</option>
+            <option value="Lastname">Lastname A-Å</option>
+            <option value="zipcodea">Postnummer lav til høj</option>
+            <option value="zipcodeb">Postnummer høj til lav</option>
+        </select>
+        <input id="search" type="text" onchange="search()" placeholder="Søg deltager - afslut med enter">
+       </div>
+       <div class="deltager5">
+           <div id="liste"></div>
+       </div>
+
+</div>
+
+        
+</main>
+
+<script src="/assets/js/deltagerliste.js"></script>
+        
+<% include ../partials/footer %>

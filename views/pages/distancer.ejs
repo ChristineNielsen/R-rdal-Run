@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/assets/css/distancer.css">
+
+<main>
+
+    <% include ../partials/header %>
+<div class="grid-container-full">
+       <div class="distancer1">
+        <img src="/Billeder/pexels-mateusz-dach-332835 (1).jpg" alt="">
+       </div>
+</div>
+<div class="grid-container">
+       <div class="distancer2">
+           <h5> Forside > Distancer</h5>
+       </div>
+       <div class="distancer3">
+           <h2>Distancer</h2>
+           <h5> <%= distance.item.content %></h5>
+       </div>
+       <div class="distancer4">
+        <% distance2.items.forEach(function(item) {
+            %> <p onclick="fetch_detaljer('<%= item.id %>')"><%= item.title %></p>
+            <% }); %>
+       </div>
+
+       <div class="distancer5">
+           <h2><div id="title"></div> </h2>
+           <h5><div id="beskrivelse"></div> </h5>
+       </div>
+</div>
+
+        
+</main>
+
+<script src="/assets/js/distancer.js"></script>
+        
+<% include ../partials/footer %>

@@ -1,0 +1,33 @@
+.styling {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.4em;
+  margin-top: 2vw;
+  font-weight: 100;
+}
+
+label {
+  display: block;
+  margin: 2vw auto 1vw auto;
+}
+
+input {
+  width: 50%;
+  padding: 12px 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: calc(20% - 10 *((100vw - 320px) / 680));
+  padding: calc(10px + 3 *((100vw - 320px) / 680));
+  margin: 2vw 1vw 2vw 0;
+  cursor: pointer;
+  color: white;
+  background-color: #2699FB;
+  border: none;
+}
+/*# sourceMappingURL=login.css.map */

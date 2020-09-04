@@ -1,0 +1,113 @@
+  #social {
+    text-align: center;
+    margin-top: calc(3.6vw - 18*((100vw - 320px) / 680));
+  }
+  
+  .social-button { 
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      padding: 0px;
+      margin: 0 5px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      -moz-border-radius:27px;
+      -webkit-border-radius:27px;
+  }
+  
+  .facebook-button{
+    transition: .2s;
+      background: #2699FB;
+  }
+  
+  .facebook-button:before{
+      font-family: "FontAwesome";
+      content: "\f09a"; 
+  }
+  
+  .facebook-button:hover{
+      color: #2699FB;
+      background: #fff;
+  }
+  
+  .twitter-button{
+    transition: .2s;
+    background: #2699FB;
+  }
+  
+  .twitter-button:before{
+        font-family: "FontAwesome";
+        content: "\f099";
+  }
+  
+  .twitter-button:hover{
+    color: #2699FB;
+    background: #fff;
+  }
+  
+  .linkedin-button{
+    transition: .2s;
+    background: #2699FB;
+  }
+  
+  .linkedin-button:before{
+        font-family: "FontAwesome";
+        content: "\f0e1";
+  }
+  
+  .linkedin-button:hover{
+    color: #2699FB;
+    background: #fff;
+  }
+  
+  .pinterest-button{
+    transition: .2s;
+    background: #2699FB;
+  }
+  
+  .pinterest-button:before{
+        font-family: "FontAwesome";
+        content: "\f0d2";
+  }
+  
+  .pinterest-button:hover{
+    color: #2699FB;
+    background: #fff;
+  }
+  
+  .tumblr-button{
+    transition: .2s;
+    background: #2699FB;
+  }
+  
+  .tumblr-button:before{
+        font-family: "FontAwesome";
+        content: "\f173";
+  }
+  
+  .tumblr-button:hover{
+    color: #2699FB;
+    background: #fff;
+  }
+  
+  .instagram-button{
+    transition: .2s;
+    background: #2699FB;
+  }
+  
+  .instagram-button:before{
+        font-family: "FontAwesome";
+        content: "\f16d";
+  }
+  
+  .instagram-button:hover{
+    color: #2699FB;
+    background: #fff;
+  }

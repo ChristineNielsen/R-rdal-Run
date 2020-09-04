@@ -1,0 +1,55 @@
+/*BLOCKS BEGIN*/
+.deltager1{
+    grid-column: 1 / 11;
+    grid-row: 1; 
+    height: calc(25vh + 93*((100vw - 320px) / 680));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
+}
+
+.deltager2{
+    grid-column: 1 / 13;
+    grid-row: 2; 
+}
+
+.deltager3{
+    grid-column: 1 / 13;
+    grid-row: 3; 
+}
+
+.deltager4{
+    grid-column: 1 / 13;
+    grid-row: 4;
+    input{
+        width: 20%;
+    }
+    ::placeholder{
+        color: #2699FB;
+    }
+}
+
+.deltager5{
+    grid-column: 1 / 13;
+    grid-row: 5; 
+    #liste{
+        div:nth-child(odd){
+        background-color: #E2F3FF;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0.5vw 0;
+        }
+        div:nth-child(even){
+            background-color: #F1F9FF;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 0.5vw 0;
+        }
+    }
+}
+/*BLOCKS END*/
+
+@media screen and (max-width: 700px) {
+    .deltager1{
+        grid-column: 1 / 13;
+        grid-row: 1; 
+    }
+  }

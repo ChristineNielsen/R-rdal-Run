@@ -1,0 +1,33 @@
+<!-- views/pages/index.ejs -->
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<main>
+
+       <% include ../partials/header %>
+<div class="grid-container-full">
+       <div class="index1">
+              <img src="/Billeder/pexels-mateusz-dach-332835 (1).jpg" alt="">
+       </div>
+</div>
+<div class="grid-container">
+       <div class="index2">
+              <h2>Rørdal Run 2020</h2>
+              <h5> <%= info.item.content %></h5>
+       </div>
+       <div class="index3">
+              <h3>Ruter</h3>
+              <h5> <%= info2.item.teaser %> </h5>
+       </div>
+       <div class="index4">
+              <% info3.items.forEach(function(item) {
+                     %> <h3> <%= item.title %></h3>
+                     <h5><%= item.description %></h5>
+                     <% }); %>
+       </div>
+   
+</div>
+
+        
+</main>
+        
+<% include ../partials/footer %>

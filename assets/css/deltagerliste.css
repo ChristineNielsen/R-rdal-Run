@@ -1,0 +1,93 @@
+/*BLOCKS BEGIN*/
+.deltager1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1 / 11;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  height: calc(25vh + 93*((100vw - 320px) / 680));
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
+}
+
+.deltager2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.deltager3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+.deltager4 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  -ms-grid-row: 4;
+  grid-row: 4;
+}
+
+.deltager4 input {
+  width: 20%;
+}
+
+.deltager4 ::-webkit-input-placeholder {
+  color: #2699FB;
+}
+
+.deltager4 :-ms-input-placeholder {
+  color: #2699FB;
+}
+
+.deltager4 ::-ms-input-placeholder {
+  color: #2699FB;
+}
+
+.deltager4 ::placeholder {
+  color: #2699FB;
+}
+
+.deltager5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
+  -ms-grid-row: 5;
+  grid-row: 5;
+}
+
+.deltager5 #liste div:nth-child(odd) {
+  background-color: #E2F3FF;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5vw 0;
+}
+
+.deltager5 #liste div:nth-child(even) {
+  background-color: #F1F9FF;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5vw 0;
+}
+
+/*BLOCKS END*/
+@media screen and (max-width: 700px) {
+  .deltager1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1 / 13;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+}
+/*# sourceMappingURL=deltagerliste.css.map */
